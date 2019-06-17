@@ -14,6 +14,15 @@
 		26A5CCDF22B755A2005189DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A5CCDD22B755A2005189DB /* LaunchScreen.storyboard */; };
 		26A5CCEA22B755A2005189DB /* UICollectionViewLeftAlignedLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A5CCE922B755A2005189DB /* UICollectionViewLeftAlignedLayoutTests.swift */; };
 		26A5CCF522B755A2005189DB /* UICollectionViewLeftAlignedLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A5CCF422B755A2005189DB /* UICollectionViewLeftAlignedLayoutUITests.swift */; };
+		26A5CD0E22B75C6A005189DB /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A5CD0322B75C6A005189DB /* Color.swift */; };
+		26A5CD0F22B75C6A005189DB /* LeftAlignedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A5CD0422B75C6A005189DB /* LeftAlignedViewController.swift */; };
+		26A5CD1022B75C6A005189DB /* RightNormalAlignedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A5CD0522B75C6A005189DB /* RightNormalAlignedViewController.swift */; };
+		26A5CD1122B75C6A005189DB /* UICollectionViewLeftAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A5CD0722B75C6A005189DB /* UICollectionViewLeftAlignedLayout.swift */; };
+		26A5CD1222B75C6A005189DB /* RightNormalAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A5CD0822B75C6A005189DB /* RightNormalAlignedLayout.swift */; };
+		26A5CD1322B75C6A005189DB /* UICollectionViewRightAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A5CD0922B75C6A005189DB /* UICollectionViewRightAlignedLayout.swift */; };
+		26A5CD1422B75C6A005189DB /* RightAlignedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A5CD0A22B75C6A005189DB /* RightAlignedViewController.swift */; };
+		26A5CD1522B75C6A005189DB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A5CD0C22B75C6A005189DB /* CollectionViewCell.swift */; };
+		26A5CD1622B75C6A005189DB /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A5CD0D22B75C6A005189DB /* TitleLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		26A5CCF022B755A2005189DB /* UICollectionViewLeftAlignedLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewLeftAlignedLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A5CCF422B755A2005189DB /* UICollectionViewLeftAlignedLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewLeftAlignedLayoutUITests.swift; sourceTree = "<group>"; };
 		26A5CCF622B755A2005189DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A5CD0322B75C6A005189DB /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		26A5CD0422B75C6A005189DB /* LeftAlignedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftAlignedViewController.swift; sourceTree = "<group>"; };
+		26A5CD0522B75C6A005189DB /* RightNormalAlignedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightNormalAlignedViewController.swift; sourceTree = "<group>"; };
+		26A5CD0722B75C6A005189DB /* UICollectionViewLeftAlignedLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewLeftAlignedLayout.swift; sourceTree = "<group>"; };
+		26A5CD0822B75C6A005189DB /* RightNormalAlignedLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightNormalAlignedLayout.swift; sourceTree = "<group>"; };
+		26A5CD0922B75C6A005189DB /* UICollectionViewRightAlignedLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewRightAlignedLayout.swift; sourceTree = "<group>"; };
+		26A5CD0A22B75C6A005189DB /* RightAlignedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightAlignedViewController.swift; sourceTree = "<group>"; };
+		26A5CD0C22B75C6A005189DB /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		26A5CD0D22B75C6A005189DB /* TitleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,12 @@
 		26A5CCD322B7559E005189DB /* UICollectionViewLeftAlignedLayout */ = {
 			isa = PBXGroup;
 			children = (
+				26A5CD0622B75C6A005189DB /* Layouts */,
+				26A5CD0422B75C6A005189DB /* LeftAlignedViewController.swift */,
+				26A5CD0A22B75C6A005189DB /* RightAlignedViewController.swift */,
+				26A5CD0522B75C6A005189DB /* RightNormalAlignedViewController.swift */,
+				26A5CD0222B75C6A005189DB /* Util */,
+				26A5CD0B22B75C6A005189DB /* Views */,
 				26A5CCD422B7559E005189DB /* AppDelegate.swift */,
 				26A5CCD622B7559E005189DB /* ViewController.swift */,
 				26A5CCD822B7559E005189DB /* Main.storyboard */,
@@ -123,6 +147,33 @@
 				26A5CCF622B755A2005189DB /* Info.plist */,
 			);
 			path = UICollectionViewLeftAlignedLayoutUITests;
+			sourceTree = "<group>";
+		};
+		26A5CD0222B75C6A005189DB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				26A5CD0322B75C6A005189DB /* Color.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		26A5CD0622B75C6A005189DB /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				26A5CD0722B75C6A005189DB /* UICollectionViewLeftAlignedLayout.swift */,
+				26A5CD0822B75C6A005189DB /* RightNormalAlignedLayout.swift */,
+				26A5CD0922B75C6A005189DB /* UICollectionViewRightAlignedLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		26A5CD0B22B75C6A005189DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				26A5CD0C22B75C6A005189DB /* CollectionViewCell.swift */,
+				26A5CD0D22B75C6A005189DB /* TitleLabel.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +307,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A5CD1522B75C6A005189DB /* CollectionViewCell.swift in Sources */,
+				26A5CD1322B75C6A005189DB /* UICollectionViewRightAlignedLayout.swift in Sources */,
+				26A5CD1222B75C6A005189DB /* RightNormalAlignedLayout.swift in Sources */,
+				26A5CD0F22B75C6A005189DB /* LeftAlignedViewController.swift in Sources */,
+				26A5CD1622B75C6A005189DB /* TitleLabel.swift in Sources */,
 				26A5CCD722B7559E005189DB /* ViewController.swift in Sources */,
+				26A5CD1122B75C6A005189DB /* UICollectionViewLeftAlignedLayout.swift in Sources */,
+				26A5CD1022B75C6A005189DB /* RightNormalAlignedViewController.swift in Sources */,
+				26A5CD1422B75C6A005189DB /* RightAlignedViewController.swift in Sources */,
 				26A5CCD522B7559E005189DB /* AppDelegate.swift in Sources */,
+				26A5CD0E22B75C6A005189DB /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

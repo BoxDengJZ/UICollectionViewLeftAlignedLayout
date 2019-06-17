@@ -7,20 +7,17 @@ UICollectionViewLeftAlignedLayout swift version
 
 
 * you can put items left aligned
-<div style="width: 25%; height: 25%;">
 
-![One](https://github.com/BoxDengJZ/UICollectionViewLeftAlignedLayout/blob/master/Images/0.png)
+![One](https://github.com/BoxDengJZ/UICollectionViewLeftAlignedLayout/blob/master/Images/0.png =250x)
 
 
-</div>
 
 * you can put items left aligned
-<div style="width: 25%; height: 25%;">
-![One](https://github.com/BoxDengJZ/UICollectionViewLeftAlignedLayout/blob/master/Images/1.png)
-</div>
+
+![One](https://github.com/BoxDengJZ/UICollectionViewLeftAlignedLayout/blob/master/Images/1.png =250x)
+
 
 
 * you can put items right aligned and items reversed
-<div style="width: 25%; height: 25%;">
-![One](https://github.com/BoxDengJZ/UICollectionViewLeftAlignedLayout/blob/master/Images/2.png)
-</div>
+
+![One](https://github.com/BoxDengJZ/UICollectionViewLeftAlignedLayout/blob/master/Images/2.png =250x)

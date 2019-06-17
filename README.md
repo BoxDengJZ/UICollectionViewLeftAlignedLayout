@@ -1,0 +1,2 @@
+# UICollectionViewLeftAlignedLayout
+UICollectionViewLeftAlignedLayout swift version

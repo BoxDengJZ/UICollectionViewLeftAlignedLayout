@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HistoTitleV" id="U6b-Vx-4bR" customClass="HistoTitleV" customModule="歌曲" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="492" height="152"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GBI-PQ-uSg">
+                    <rect key="frame" x="0.0" y="0.0" width="492" height="152"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar_pure" translatesAutoresizingMaskIntoConstraints="NO" id="7IR-za-6e3">
+                            <rect key="frame" x="16" y="51" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="Ivq-6a-dIH"/>
+                                <constraint firstAttribute="height" constant="50" id="vDz-7F-4bu"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="七年级上册 部编版" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJX-zc-aFK">
+                            <rect key="frame" x="76" y="51" width="401" height="22.5"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="人民教育出版社" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Op5-8E-eLj">
+                            <rect key="frame" x="76" y="80" width="401" height="21"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="15"/>
+                            <color key="textColor" red="0.72941176470000002" green="0.72549019609999998" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="7IR-za-6e3" firstAttribute="centerY" secondItem="GBI-PQ-uSg" secondAttribute="centerY" id="2uv-Q4-Ies"/>
+                        <constraint firstItem="yJX-zc-aFK" firstAttribute="leading" secondItem="7IR-za-6e3" secondAttribute="trailing" constant="10" id="HYD-Aq-ekh"/>
+                        <constraint firstAttribute="trailing" secondItem="Op5-8E-eLj" secondAttribute="trailing" constant="15" id="Iz8-1R-324"/>
+                        <constraint firstItem="7IR-za-6e3" firstAttribute="leading" secondItem="GBI-PQ-uSg" secondAttribute="leading" constant="16" id="ONv-CK-hVF"/>
+                        <constraint firstItem="Op5-8E-eLj" firstAttribute="bottom" secondItem="7IR-za-6e3" secondAttribute="bottom" id="aRj-Za-KfZ"/>
+                        <constraint firstItem="Op5-8E-eLj" firstAttribute="leading" secondItem="yJX-zc-aFK" secondAttribute="leading" id="aYd-4G-pyQ"/>
+                        <constraint firstItem="yJX-zc-aFK" firstAttribute="top" secondItem="7IR-za-6e3" secondAttribute="top" id="gv5-TT-HfZ"/>
+                        <constraint firstAttribute="trailing" secondItem="yJX-zc-aFK" secondAttribute="trailing" constant="15" id="ySQ-Wn-W2i"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="GBI-PQ-uSg" secondAttribute="bottom" id="KYz-tF-NWv"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="GBI-PQ-uSg" secondAttribute="trailing" id="PrP-Dm-pC7"/>
+                <constraint firstItem="GBI-PQ-uSg" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="Ype-SJ-C8f"/>
+                <constraint firstItem="GBI-PQ-uSg" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" id="w9j-eL-bH4"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <connections>
+                <outlet property="avatar" destination="7IR-za-6e3" id="CX9-F7-XDW"/>
+                <outlet property="bg" destination="GBI-PQ-uSg" id="W6B-Pa-R6A"/>
+                <outlet property="down" destination="Op5-8E-eLj" id="DuA-kp-ATw"/>
+                <outlet property="up" destination="yJX-zc-aFK" id="6rQ-dw-qk0"/>
+            </connections>
+            <point key="canvasLocation" x="262.31884057971018" y="174.77678571428569"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="avatar_pure" width="56" height="56"/>
+    </resources>
+</document>

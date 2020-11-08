@@ -8,11 +8,7 @@
 
 import UIKit
 
-
-
 class DecorationFlow: UICollectionViewFlowLayout {
-    
-    
     
     private var cache = [IndexPath: UICollectionViewLayoutAttributes]()
     

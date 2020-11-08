@@ -31,3 +31,16 @@ UICollectionViewLeftAlignedLayout swift version
 ### 右边反着排
 
 <img width="35%" height="35%"  src="https://github.com/BoxDengJZ/UICollectionViewLeftAlignedLayout/blob/master/Images/2.png">
+
+
+
+
+
+<hr>
+
+
+
+for decoration
+
+
+<img width="35%" height="35%"  src="https://github.com/BoxDengJZ/UICollectionViewLeftAlignedLayout/blob/master/Images/deco.png">

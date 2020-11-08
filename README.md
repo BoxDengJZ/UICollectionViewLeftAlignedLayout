@@ -1,5 +1,8 @@
 # UICollectionViewLeftAlignedLayout
 
+## [博客地址：UICollectionView 固定行距列表左排: 来一个自定制 Layout ](https://juejin.im/post/6844903870313807885)
+
+
 
 固定行距列表左排， UICollectionView 的 item 左排、右排、右反排列
 

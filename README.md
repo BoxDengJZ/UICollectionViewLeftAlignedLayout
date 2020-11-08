@@ -46,4 +46,4 @@ UICollectionViewLeftAlignedLayout swift version
 for decoration
 
 
-<img width="35%" height="35%"  src="https://github.com/BoxDengJZ/UICollectionViewLeftAlignedLayout/blob/master/Images/deco.png">
+<img width="35%" height="35%"  src="https://github.com/BoxDengJZ/UICollectionViewLeftAlignedLayout/blob/master/Images/dec.png">
